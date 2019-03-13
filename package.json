@@ -1,0 +1,9 @@
+{
+  "name": "eslint-plugin-lightning-components",
+  "version": "1.0.0",
+  "description": "ESLint set of rules for lightning components",
+  "main": "index.js",
+  "repository": "git@github.com:reiniergs/eslint-plugin-lightning-components.git",
+  "author": "Reinier Guerra <reinier.guerra@salesforce.com>",
+  "license": "MIT"
+}
