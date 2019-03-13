@@ -17,7 +17,7 @@ const plugin = {
 
 module.exports = RULE_NAMES.reduce((seed, ruleName) => {
     seed.recommended.rules[`lightning-components/${ruleName}`] = 'error';
-    seed.rules[ruleName] = require(`./rules/${rules}`);
+    seed.rules[ruleName] = require(`./rules/${ruleName}`);
     return seed;
 }, plugin); 
 
